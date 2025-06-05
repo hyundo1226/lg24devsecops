@@ -41,7 +41,5 @@ jobs:
         uses: facebook/pyre-action@v0.0.1
         with:
           # Path to the python source code you want to type check. If you want to type check the root of your repo, use './'. A .pyre_configuration file should exist here, if not, a default configuration will be used.
-          repo-directory: './'More actions
+          repo-directory: './'
           requirements-path: './requirements.txt'
-
-
