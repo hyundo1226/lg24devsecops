@@ -52,7 +52,7 @@ jobs:
           requirements-path: './requirements.txt'
 
       - name: Upload coverage report
-        uses: actions/upload-artifact@3c1af6c43c664d3e413d2d52be9ed07dfd3c9f5f
+        uses: actions/upload-artifact@6027e3d
         with:
           name: coverage-report
           path: coverage.xml
